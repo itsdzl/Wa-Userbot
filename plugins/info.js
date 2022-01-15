@@ -7,7 +7,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
   let uptime = clockString(_uptime) 
   let totalreg = Object.keys(global.DATABASE._data.users).length
   let old = Math.round(performance.now())
-  await m.reply('Wait Kakak!!')
+  await m.reply('dizz not dizzy...')
   let neww = Math.round(performance.now())
   conn.reply(m.chat, `
 ╠═〘 ${package.name} 〙 ═
