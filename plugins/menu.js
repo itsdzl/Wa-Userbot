@@ -32,16 +32,9 @@ let tags = {
 const defaultMenu = {
   before: `
 ╭─「 %me 」
-│ %ucapan, %name!
-│
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
-│
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
+│ Dz-BOT Is Running Up.
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -146,8 +139,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     let pp = await conn.getProfilePicture(conn.user.jid).catch(_ => path.join(__dirname, '../src/avatar_contact.png'))
     conn.sendButton(m.chat,text.trim(), author,  pp,  [
   ['Ping',  '/ping'],
-  ['Info',  '/info'],
-  ['Owner',  '/owner']
+  ['Quotes',  'http://t.me/beauthink'],
+  ['Telegram',  'http://t.me/JustDzL']
 ], { quoted: m}).catch(_ => conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m)).catch(_ => conn.reply(m.chat, text.trim(), m))
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
