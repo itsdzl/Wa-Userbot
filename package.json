@@ -1,5 +1,5 @@
 {
-  "name": "Dz-BOT",
+  "name": "games-wabot",
   "version": "0.9.8",
   "description": "Customizable WhatsApp Bot",
   "depecrated": false,
@@ -25,22 +25,22 @@
     "whatsapp",
     "Games-wabot",
     "wabot-aq"
-    "Wa-Userbot"
   ],
-  "homepage": "https://github.com/itsdzl/Wa-Userbot",
+  "homepage": "https://github.com/BochilGaming/games-wabot",
   "author": {
-    "name": "itsdzl"
+    "name": "BochilGaming"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itsdzl/Wa-Userbot.git"
+    "url": "git+https://github.com/BochilGaming/games-wabot.git"
   },
   "bugs": {
-    "url": "https://github.com/itsdzl/Wa-Userbot/issues"
+    "url": "https://github.com/BochilGaming/games-wabot/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@adiwajshing/baileys": "github:BochilGaming/Baileys#fix",
+    "@bochilteam/scraper": "^0.0.4",
     "awesome-phonenumber": "^2.65.0",
     "brainly-scraper-v2": "^1.1.2",
     "cfonts": "^2.9.3",
