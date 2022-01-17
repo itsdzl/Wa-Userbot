@@ -1,7 +1,7 @@
 {
-  "name": "games-wabot",
+  "name": "Wa-Userbot",
   "description": "Customizable WhatsApp Bot",
-  "repository": "https://github.com/itsdzl/games-wabot",
+  "repository": "https://github.com/itsdzl/Wa-Userbot",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["bot", "whatsapp", "whatsapp-bot", "rpg", "games-wabot", "epic rpg"]
 }
