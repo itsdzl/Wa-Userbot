@@ -6,7 +6,7 @@
 * Recode by BochilGaming :)
 */
 
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@bot-wa/bot-wa-baileys')
 let handler = async (m, { conn }) => {
   let q = m.quoted ? m.quoted : m 
   let mime = (q.msg || q).mimetype || ''
