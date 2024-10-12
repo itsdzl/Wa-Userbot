@@ -1,5 +1,5 @@
 global.math = global.math ? global.math : {}
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@bot-wa/bot-wa-baileys')
 let handler  = async (m, { conn, args, usedPrefix, DevMode }) => {
     try {
         if (args.length < 1) return conn.reply(m.chat, `
