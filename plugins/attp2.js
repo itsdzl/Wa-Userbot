@@ -1,7 +1,7 @@
 const uploadImage = require('../lib/uploadImage') 
 const fetch = require('node-fetch')
 const { sticker } = require('../lib/sticker')
-const { MessageType } = require('@adiwajshing/baileys')
+const { MessageType } = require('@bot-wa/bot-wa-baileys')
 
 let handler = async (m, { conn, text }) => {
  try {
