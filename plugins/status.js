@@ -1,4 +1,4 @@
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@bot-wa/bot-wa-baileys')
 let { performance } = require('perf_hooks')
 let osu = require('node-os-utils')
 let handler  = async (m, { conn, usedPrefix, DevMode }) => {
