@@ -1,4 +1,4 @@
-let { Presence } = require('@adiwajshing/baileys')
+let { Presence } = require('@bot-wa/bot-wa-baileys')
 let handler = async (m, { conn, args }) => {
 	await conn.updatePresence(m.chat, Presence.composing) 
 	let list = Object.entries(global.DATABASE.data.users)
