@@ -1,4 +1,4 @@
-const { MessageType } = require('@adiwajshing/baileys')
+const { MessageType } = require('@bot-wa/bot-wa-baileys')
 const { sticker } = require('../lib/sticker')
 let handler = async (m, { conn, text }) => {
   let stiker = false
