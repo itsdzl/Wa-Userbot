@@ -1,5 +1,5 @@
 const { toAudio } = require('../lib/converter')
-const { MessageType } = require('@adiwajshing/baileys')
+const { MessageType } = require('@bot-wa/bot-wa-baileys')
 
 let handler = async (m, { conn, usedPrefix, command }) => {
   let q = m.quoted ? m.quoted : m
