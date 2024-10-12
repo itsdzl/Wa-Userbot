@@ -1,5 +1,5 @@
 let limit = 30
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@bot-wa/bot-wa-baileys')
 let yts = require('yt-search')
 const { servers, yta, ytv } = require('../lib/y2mate')
 let handler = async (m, { conn, command, text, isPrems, isOwner, DevMode }) => {
