@@ -1,4 +1,4 @@
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@bot-wa/bot-wa-baileys')
 let handler = async (m, { conn, text }) => {
     conn.req = conn.req ? conn.req : {}
     if (!text) return conn.reply(m.chat, 'Mau request apa an?', m) 
