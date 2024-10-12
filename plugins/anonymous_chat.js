@@ -1,4 +1,4 @@
-const { MessageType } = require("@adiwajshing/baileys")
+const { MessageType } = require("@bot-wa/bot-wa-baileys")
 
 async function handler(m, { command }) {
     command = command.toLowerCase()
