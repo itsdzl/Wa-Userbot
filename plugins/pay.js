@@ -1,4 +1,4 @@
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@bot-wa/bot-wa-baileys')
 let pajak = 0.02
 let handler = async (m, { conn, text }) => {
   if (!text) throw 'Masukkan jumlah exp yang akan diberi'
