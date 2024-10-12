@@ -1,4 +1,4 @@
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@bot-wa/bot-wa-baileys')
 let handler = async (m, { command, text, DevMode }) => {
     try {
         let ter = command[1].toLowerCase()
