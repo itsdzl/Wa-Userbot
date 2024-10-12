@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 const FormData = require('form-data')
-const { MessageType } = require('@adiwajshing/baileys')
+const { MessageType } = require('@bot-wa/bot-wa-baileys')
 const { sticker } = require('../lib/sticker.js')
 
 let handler  = async (m, { conn, text }) => {
