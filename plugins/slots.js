@@ -1,4 +1,4 @@
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@bot-wa/bot-wa-baileys')
 let num = /([0-9])$/i
 let handler = async (m, { conn, text }) => {
     if (!text) throw 'Masukkan Jumlah Uang Yang Ingin Anda Slot'
