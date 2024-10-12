@@ -1,6 +1,6 @@
 const uploadImage = require('../lib/uploadImage') 
 const { sticker } = require('../lib/sticker')
-const { MessageType } = require('@adiwajshing/baileys')
+const { MessageType } = require('@bot-wa/bot-wa-baileys')
 
 let handler = async (m, { conn, text }) => {
  try {
