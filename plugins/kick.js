@@ -1,4 +1,4 @@
-let { WAConnection: _WAConnection, WA_MESSAGE_STUB_TYPES } = require('@adiwajshing/baileys')
+let { WAConnection: _WAConnection, WA_MESSAGE_STUB_TYPES } = require('@bot-wa/bot-wa-baileys')
 let handler = async (m, { conn, args }) => {
   let ownerGroup = m.chat.split`-`[0] + '@s.whatsapp.net'
   let users = m.mentionedJid.filter(u => !(u == ownerGroup || u.includes(conn.user.jid)))
