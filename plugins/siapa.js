@@ -1,4 +1,4 @@
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@bot-wa/bot-wa-baileys')
 let handler = async (m, { conn, text, participants }) => {
     try {
         let member = participants.map(u => u.jid)
