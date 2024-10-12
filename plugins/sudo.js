@@ -1,4 +1,4 @@
-const { newMessagesDB } = require("@adiwajshing/baileys")
+const { newMessagesDB } = require("@bot-wa/bot-wa-baileys")
 
 let handler = async (m, { conn, text }) => {
   if (!text) throw false
