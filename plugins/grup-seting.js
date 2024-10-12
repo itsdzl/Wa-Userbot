@@ -1,4 +1,4 @@
-let { Presence, GroupSettingChange } = require('@adiwajshing/baileys')
+let { Presence, GroupSettingChange } = require('@bot-wa/bot-wa-baileys')
 let handler  = async (m, { conn, args, usedPrefix, command }) => {
 	let isClose = { // Switch Case Like :v
 		'open': false,
