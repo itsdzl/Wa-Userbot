@@ -5,7 +5,7 @@
 
 const fs = require('fs')
 const ffmpeg = require('fluent-ffmpeg')
-const { MessageType } = require('@adiwajshing/baileys')
+const { MessageType } = require('@bot-wa/bot-wa-baileys')
 const { exec } = require('child_process')
 
 let handler = async (m, { conn }) => {
