@@ -1,4 +1,4 @@
-let { WAMessageProto } = require('@adiwajshing/baileys')
+let { WAMessageProto } = require('@bot-wa/bot-wa-baileys')
 let handler = async (m, { command, usedPrefix, text }) => {
     let M = WAMessageProto.WebMessageInfo
     let which = command.replace(/\+|add/i, '')
