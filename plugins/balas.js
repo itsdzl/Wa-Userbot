@@ -1,4 +1,4 @@
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType } = require('@bot-wa/bot-wa-baileys')
 let handler = async (m, { conn, args, text }) => {
     conn.req = conn.req ? conn.req : {}
     if (!args || !text) return m.reply('nomor ama teksny?')
